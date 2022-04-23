@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Padauk;
+    src: url(font/Padauk-Bold.ttf);
+}
+
+@font-face {
+    font-family: Sans-Fransisco;
+    src: url(font/SF-Pro-Display-Medium.otf);
+}
+
+@font-face {
+    font-family: Mont;
+    src: url(font/Mont-HeavyDEMO.otf);
+}
+
+@font-face {
+    font-family: jettbrains;
+    src: url(font/JetBrainsMono-Regular.bae14b26.woff2);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.touch{
+    display: flex;
+    font-family: Sans-Fransisco;
+    justify-content: center;
+    color: white;
+}
+
+.folder{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 200px;
+}
+
+/*.button{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 3px solid #3c67ec;
+    border-radius: 10px;
+}
+
+.button:hover{
+    animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+    0%{
+        box-shadow: 
+        0 0 25px #ffffffff,
+        0 0 50px #3c67ecss;
+    }
+} */
+
+
+
+#text{
+    display: flex;
+    justify-content: center;
+    font-family: Sans-Fransisco;
+    color: black;
+}
+
+#top{
+    font-family: jettbrains;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    margin-top: 20px;
+}
+
+.back{
+    margin-top: 10px;
+}
+
+.date{
+    padding-left: 15px;
+}
+
+main{
+    color: white;
+    font-family: jettbrains;
+    font-size: 13px;
+    max-width: 700px;
+}
+
+.photo{
+    margin-bottom: 30px;
+}
